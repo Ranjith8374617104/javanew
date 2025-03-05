@@ -1,19 +1,22 @@
-class a{
-    int c;
-    String b;
-    a()
+class Parameterconstrutor
+{
+    public int a,b;
+    Parameterconstrutor(int x,int y);
     {
-        this.c=345;
-        this.b="hello manisha";
+        a=x;
+        b=y;
     }
-    void display()
+    public void print values()
     {
-        System.out.println(b+" "+c);
+ System.out.println("a="+a\+"b="+b);
     }
 }
-public class cons{
-    public static void main(String[] args){
-        a s=new a();
-        s.display();
+ public class cons
+{
+    public static void main(String[] args)
+    {
+        Parameterconstrutor p=new Parameterconstrutor(2,3);
+        p.print values();
     }
 }
+        
